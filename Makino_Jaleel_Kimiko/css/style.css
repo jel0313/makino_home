@@ -326,12 +326,60 @@ COMPANY
     text-align: center;
     font-size: 12px;
 }
+  /*-------------------------------------------
+Homeボタン
+-------------------------------------------*/
+  /***追従するHOMEボタン***/
+  #home-link {
+    position: fixed;
+    right: 34px;
+    bottom: 52px;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    background: #fff;
+    color: #111;
+    padding: 19px;
+    border: solid 1px;
+    border-radius: 50%;
+    box-shadow: 0 2px 10px -6px rgba(0, 0, 0, 0.5),
+      0 3px 10px -4px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+  }
+  #home-link:hover {
+    background: #111;
+    color: #fff;
+  }
+  /***追従するHOMEボタン***/
 
 
 /*-------------------------------------------
 SP
 -------------------------------------------*/
 @media screen and (max-width: 900px) {
+    /*-------------------------------------------
+Homeボタン
+-------------------------------------------*/
+  /***追従するHOMEボタン***/
+  #home-link {
+    position: fixed;
+    right: 34px;
+    bottom: 52px;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    background: #fff;
+    color: #111;
+    padding: 19px;
+    border: solid 1px;
+    border-radius: 50%;
+    box-shadow: 0 2px 10px -6px rgba(0, 0, 0, 0.5),
+      0 3px 10px -4px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+  }
+  #home-link:hover {
+    background: #111;
+    color: #fff;
+  }
+  /***追従するHOMEボタン***/
 
   /*-------------------------------------------
   TOP、PRODUCTS
